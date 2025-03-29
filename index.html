@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-layout">
+            <!-- COLUMN 1 (75%) -->
+            <div class="column column-main">
+                <!-- TOOLBOX SECTION -->
+                <div class="card toolbox-card">
+                    <h2>TOOLBOX</h2>
+                    <div class="tools-scroll-container">
+                        <div class="tools-scroll">
+                            <div class="tool-item">
+                                <img src="./assets/icons/figma.svg" alt="Figma">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/figma-color.svg" alt="Figma Color">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/ai.svg" alt="Adobe Illustrator">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/ps.svg" alt="Adobe Photoshop">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/blender.svg" alt="Blender">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/3d.svg" alt="3D Software">
+                            </div>
+                            <!-- Duplicate icons for seamless scrolling -->
+                            <div class="tool-item">
+                                <img src="./assets/icons/figma.svg" alt="Figma">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/figma-color.svg" alt="Figma Color">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/ai.svg" alt="Adobe Illustrator">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/ps.svg" alt="Adobe Photoshop">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/blender.svg" alt="Blender">
+                            </div>
+                            <div class="tool-item">
+                                <img src="./assets/icons/3d.svg" alt="3D Software">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 2 SPLIT INTO TWO SECTIONS -->
+                <div class="split-row">
+                    <!-- EXPERTISE SECTION -->
+                    <div class="card expertise-card">
+                        <h2>EXPERTISE</h2>
+                        <div class="expertise-item">
+                            <h3><span class="circle-icon"></span> Branding</h3>
+                            <p>Crafting user-centered designs that blend creativity with functionality. I specialize in
+                                creating intuitive, visually appealing interfaces that enhance user experience and
+                                reflect brand identity across both web and mobile platforms.</p>
+                        </div>
+                        <div class="expertise-item">
+                            <h3><span class="circle-icon"></span> 3D Design</h3>
+                            <p>Bringing ideas to life with immersive 3D models and visualizations. From concept to
+                                creation, I specialize in crafting realistic, high-quality 3D assets for product
+                                visualization, animation, and interactive experiences, pushing the boundaries of digital
+                                creativity.</p>
+                        </div>
+                        <div class="expertise-item">
+                            <h3><span class="circle-icon"></span> Web Development</h3>
+                            <p>Transforming designs into fully functional, high-performing websites and apps. My
+                                expertise lies in building responsive, scalable, and secure digital experiences using
+                                the latest web technologies to ensure seamless performance across devices.</p>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 2 (RIGHT SIDE OF SPLIT) -->
+                    <div class="right-section">
+                        <!-- FREELANCE STATUS -->
+                        <div class="card freelance-card">
+                            <div class="status">
+                                <span class="status-dot"></span>
+                                <span class="status-text">AVAILABLE FOR FREELANCE</span>
+                            </div>
+                        </div>
+
+                        <!-- CONTACT SECTION -->
+                        <div class="card contact-card">
+                            <h2>CONTACT</h2>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="Samkeet Mehta">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="samkeetm@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" rows="5"
+                                        placeholder="Tell me more about your project..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="budget">Project Budget (optional)</label>
+                                    <div class="select-wrapper">
+                                        <select id="budget">
+                                            <option value="" selected disabled>Select...</option>
+                                            <option value="1000-3000">$1,000 - $3,000</option>
+                                            <option value="3000-5000">$3,000 - $5,000</option>
+                                            <option value="5000-10000">$5,000 - $10,000</option>
+                                            <option value="10000+">$10,000+</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="submit" class="submit-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN 2 (25%) -->
+            <div class="column column-side">
+                <!-- MOTIVATION SECTION -->
+                <div class="card motivation-card">
+                    <h2>MOTIVATION</h2>
+                    <p>Driven by a passion for innovative design and a commitment to delivering high-quality work, I
+                        find motivation in the challenges each project presents. Every pixel, every interaction, every
+                        piece of code tells a story, and I am fueled by the opportunity to craft experiences that not
+                        only captivate but also solve real-world problems. For me, it's about pushing boundaries,
+                        embracing creativity, and continuously evolving to stay ahead in an ever-changing digital
+                        landscape. Each project is a new canvas, and my goal is always the same—to inspire, engage, and
+                        make a lasting impact.</p>
+                    <div class="signature">Wayne Kirkwood</div>
+                </div>
+
+                <!-- CERTIFICATIONS SECTION -->
+                <div class="card certifications-card">
+                    <h2>CERTIFICATIONS</h2>
+                    <div class="certification-item">
+                        <h3>Awwwards - Site Of The Day</h3>
+                        <p>Recognized for outstanding creativity, design, and user experience for a cutting-edge website
+                            created for a major brand, showcasing excellence in digital design.</p>
+                    </div>
+                    <div class="certification-item">
+                        <h3>Webby Awards - Best Portfolio</h3>
+                        <p>Awarded for innovation and exceptional design in crafting a personal portfolio website that
+                            demonstrates both technical skill and aesthetic vision.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>TESTIMONIALS</h1>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-track" id="testimonialTrack">
+                <!-- Original testimonials -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <div class="author-name">Sarah Mitchell</div>
+                            <div class="author-title">Lead UX Designer at Bose</div>
+                        </div>
+                        <img src="./assets/logos/hbo.png" alt="HBO Logo" class="company-logo">
+                    </div>
+                    <div class="testimonial-content">
+                        "Working with Wayne was a game-changer. They took our vision and transformed it into something
+                        truly remarkable. The attention to detail and creativity is unmatched!"
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <div class="author-name">David Rodriguez</div>
+                            <div class="author-title">Senior Creative Director at Xbox</div>
+                        </div>
+                        <img src="./assets/logos/bose.png" alt="Bose Logo" class="company-logo">
+                    </div>
+                    <div class="testimonial-content">
+                        "I've collaborated with countless designers, but Wayne stands out for their innovative approach
+                        and seamless execution. Our project was elevated beyond expectations."
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <div class="author-name">Jessica Parker</div>
+                            <div class="author-title">Marketing Manager at Activision</div>
+                        </div>
+                        <img src="./assets/logos/xbox.png" alt="Xbox Logo" class="company-logo">
+                    </div>
+                    <div class="testimonial-content">
+                        "Wayne brought an incredible level of professionalism and creativity to our project. They
+                        understood our brand and delivered beyond what we had hoped for."
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <div class="author-name">James Wilson</div>
+                            <div class="author-title">Project Lead at Netflix</div>
+                        </div>
+                        <img src="./assets/logos/activision.png" alt="Activision Logo" class="company-logo">
+                    </div>
+                    <div class="testimonial-content">
+                        "The partnership with Wayne has been nothing short of impressive. They delivered with great
+                        attention to detail and the results could not be better."
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <div class="author-name">Emma Thompson</div>
+                            <div class="author-title">Product Manager at Spotify</div>
+                        </div>
+                        <img src="./assets/logos/activision.png" alt="Netflix Logo" class="company-logo">
+                    </div>
+                    <div class="testimonial-content">
+                        "Our product was delivered with exceptional quality to market on time and the process was smooth
+                        throughout. Wayne's expertise made all the difference."
+                    </div>
+                </div>
+
+                <!-- These testimonials will be cloned by JavaScript to create the infinite effect -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>© 2024. All Rights Reserved. Designed & Built by <b style="color: white;">FramerXplore</b></div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">f</a>
+                <a href="#" class="social-icon">in</a>
+                <a href="#" class="social-icon">ig</a>
+                <a href="#" class="social-icon">X</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const track = document.getElementById('testimonialTrack');
+            const cards = track.querySelectorAll('.testimonial-card');
+
+            // Clone the testimonial cards to create the infinite scroll effect
+            cards.forEach(card => {
+                const clone = card.cloneNode(true);
+                track.appendChild(clone);
+            });
+
+            // Function to check if we need to reset the animation
+            function checkPosition() {
+                const trackWidth = track.offsetWidth;
+                const halfTrackWidth = trackWidth / 2;
+
+                // Get current transform value
+                const transformValue = window.getComputedStyle(track).getPropertyValue('transform');
+                const matrix = new DOMMatrix(transformValue);
+                const translateX = matrix.m41; // Get the X translation value
+
+                // If we've scrolled more than half the track width, reset to start
+                if (Math.abs(translateX) >= halfTrackWidth) {
+                    track.style.transition = 'none';
+                    track.style.transform = 'translateX(0)';
+
+                    // Force reflow to make the transition removal take effect
+                    track.offsetHeight;
+
+                    // Restore the transition and animation
+                    track.style.transition = '';
+                    track.style.animation = 'scroll 40s linear infinite';
+                }
+            }
+
+            // Check position periodically
+            setInterval(checkPosition, 1000);
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
